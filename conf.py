@@ -277,8 +277,17 @@ texinfo_documents = [
 locale_dirs = ['../i18n/']
 gettext_compact = False
 
+autoclass_content = 'both'
+
+def skip(app, what, name, obj, skip, options):
+    print name
+    if name in ("__init__", "__module__"):
+        return False
+    return skip
+
 
 def setup(app):
+    app.connect("autodoc-skip-member", skip)
     try:
         from autoautosummary import AutoAutoSummary
         app.add_directive('autoautosummary', AutoAutoSummary)

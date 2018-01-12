@@ -11,6 +11,8 @@ Class: $CLASS
    :members:
    :undoc-members:
    :show-inheritance:
+   :special-members: __init__
+
 
     .. rubric:: Methods
 
@@ -22,3 +24,5 @@ Class: $CLASS
 
     .. autoautosummary:: qgis.$PACKAGE.$CLASS
         :attributes:
+
+    .. automethod:: __init__
