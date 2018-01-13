@@ -1957,9 +1957,9 @@ and generate a proper subclass.</p>
 <code class="descname">convertSymbolRotation</code><span class="sig-paren">(</span><em>symbol: QgsSymbol</em>, <em>field: str</em><span class="sig-paren">)</span><a class="headerlink" href="#qgis.core.QgsFeatureRenderer.convertSymbolRotation" title="Permalink to this definition">¶</a></dt>
 <dd><div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">this function is used to convert old rotations expressions to symbol</p>
+<p class="last">this function is used to convert old rotations expressions to symbol
+level DataDefined angle</p>
 </div>
-<p>level DataDefined angle</p>
 </dd></dl>
 
 <dl class="method">
@@ -1967,9 +1967,9 @@ and generate a proper subclass.</p>
 <code class="descname">convertSymbolSizeScale</code><span class="sig-paren">(</span><em>symbol: QgsSymbol</em>, <em>method: QgsSymbol.ScaleMethod</em>, <em>field: str</em><span class="sig-paren">)</span><a class="headerlink" href="#qgis.core.QgsFeatureRenderer.convertSymbolSizeScale" title="Permalink to this definition">¶</a></dt>
 <dd><div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">this function is used to convert old sizeScale expressions to symbol</p>
+<p class="last">this function is used to convert old sizeScale expressions to symbol
+level DataDefined size</p>
 </div>
-<p>level DataDefined size</p>
 </dd></dl>
 
 <dl class="method">
@@ -2440,9 +2440,9 @@ be followed by a corresponding call to stopRender() after all features have been
 </div>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">This method is not thread safe. Before calling startRender() in a non-main thread,</p>
+<p class="last">This method is not thread safe. Before calling startRender() in a non-main thread,
+the renderer should instead be cloned and startRender()/stopRender() called on the clone.</p>
 </div>
-<p>the renderer should instead be cloned and startRender()/stopRender() called on the clone.</p>
 </dd></dl>
 
 <dl class="method">
@@ -2452,9 +2452,9 @@ be followed by a corresponding call to stopRender() after all features have been
 <p>Calls to stopRender() must always be preceded by a call to startRender().</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">This method is not thread safe. Before calling startRender() in a non-main thread,</p>
+<p class="last">This method is not thread safe. Before calling startRender() in a non-main thread,
+the renderer should instead be cloned and startRender()/stopRender() called on the clone.</p>
 </div>
-<p>the renderer should instead be cloned and startRender()/stopRender() called on the clone.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsFeatureRenderer.startRender" title="qgis.core.QgsFeatureRenderer.startRender"><code class="xref py py-func docutils literal"><span class="pre">startRender()</span></code></a></p>
@@ -2591,7 +2591,7 @@ Default implementation uses symbolForFeature().</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

@@ -1792,9 +1792,9 @@ The grid will be added to the end of the stack, and rendered
 above any existing map grids already present in the stack.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After adding a grid to the stack, updateBoundingRect() and update()</p>
+<p class="last">After adding a grid to the stack, updateBoundingRect() and update()
+should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 </div>
-<p>should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapGridStack.removeGrid" title="qgis.core.QgsLayoutItemMapGridStack.removeGrid"><code class="xref py py-func docutils literal"><span class="pre">removeGrid()</span></code></a></p>
@@ -1862,9 +1862,9 @@ beyond the QgsLayoutItemMap’s item rect.</p>
 <dd><p>Moves a grid with matching <code class="docutils literal"><span class="pre">gridId</span></code> down the stack, causing it to be rendered below other grids.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After moving a grid within the stack, update() should be</p>
+<p class="last">After moving a grid within the stack, update() should be
+called for the QgsLayoutItemMap to redraw the map with the new grid stack order.</p>
 </div>
-<p>called for the QgsLayoutItemMap to redraw the map with the new grid stack order.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapGridStack.moveGridUp" title="qgis.core.QgsLayoutItemMapGridStack.moveGridUp"><code class="xref py py-func docutils literal"><span class="pre">moveGridUp()</span></code></a></p>
@@ -1877,9 +1877,9 @@ beyond the QgsLayoutItemMap’s item rect.</p>
 <dd><p>Moves a grid with matching <code class="docutils literal"><span class="pre">gridId</span></code> up the stack, causing it to be rendered above other grids.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After moving a grid within the stack, update() should be</p>
+<p class="last">After moving a grid within the stack, update() should be
+called for the QgsLayoutItemMap to redraw the map with the new grid stack order.</p>
 </div>
-<p>called for the QgsLayoutItemMap to redraw the map with the new grid stack order.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapGridStack.moveGridDown" title="qgis.core.QgsLayoutItemMapGridStack.moveGridDown"><code class="xref py py-func docutils literal"><span class="pre">moveGridDown()</span></code></a></p>
@@ -1907,9 +1907,9 @@ beyond the QgsLayoutItemMap’s item rect.</p>
 <dd><p>Removes a grid with matching <code class="docutils literal"><span class="pre">gridId</span></code> from the stack and deletes the corresponding <a class="reference internal" href="QgsLayoutItemMapGrid.html#module-QgsLayoutItemMapGrid" title="QgsLayoutItemMapGrid"><code class="xref py py-class docutils literal"><span class="pre">QgsLayoutItemMapGrid</span></code></a>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After removing a grid from the stack, updateBoundingRect() and update()</p>
+<p class="last">After removing a grid from the stack, updateBoundingRect() and update()
+should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 </div>
-<p>should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapGridStack.addGrid" title="qgis.core.QgsLayoutItemMapGridStack.addGrid"><code class="xref py py-func docutils literal"><span class="pre">addGrid()</span></code></a></p>
@@ -1952,7 +1952,7 @@ beyond the QgsLayoutItemMap’s item rect.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

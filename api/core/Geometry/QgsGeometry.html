@@ -2699,9 +2699,9 @@ Returns a buffer region around the geometry, with additional style options.</p>
 by calling <cite>error()</cite> on the returned geometry.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">for line based geometries, the center point of the line is returned,</p>
+<p class="last">for line based geometries, the center point of the line is returned,
+and for point based geometries, the point itself is returned</p>
 </div>
-<p>and for point based geometries, the point itself is returned</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsGeometry.pointOnSurface" title="qgis.core.QgsGeometry.pointOnSurface"><code class="xref py py-func docutils literal"><span class="pre">pointOnSurface()</span></code></a></p>
@@ -3598,9 +3598,9 @@ i.e. it has no anomalous geometric points, such as self-intersection or self-tan
 Uses GEOS library for the test.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This is useful mainly for linestrings and linear rings. Polygons are simple by definition,</p>
+<p class="last">This is useful mainly for linestrings and linear rings. Polygons are simple by definition,
+for checking anomalies in polygon geometries one can use isGeosValid().</p>
 </div>
-<p>for checking anomalies in polygon geometries one can use isGeosValid().</p>
 <div class="versionadded">
 <p><span class="versionmodified">New in version 3.0.</span></p>
 </div>
@@ -4243,11 +4243,9 @@ The <code class="docutils literal"><span class="pre">method</span></code> argume
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Available in Python bindings since QGIS 1.6</p>
+<p class="last">Available in Python bindings since QGIS 1.6
+*</p>
 </div>
-<ul class="simple">
-<li></li>
-</ul>
 </dd></dl>
 
 <dl class="method">
@@ -4370,7 +4368,7 @@ An empty geometry will be returned if the diagram could not be calculated.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

@@ -1784,9 +1784,9 @@ required for transformations for that source or destination.</p>
 <p>Returns true if the new transform pair was added successfully.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Transforms set using this method will override any specific source or destination</p>
+<p class="last">Transforms set using this method will override any specific source or destination
+transforms set by addSourceDatumTransform() or addDestinationDatumTransform().</p>
 </div>
-<p>transforms set by addSourceDatumTransform() or addDestinationDatumTransform().</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsCoordinateTransformContext.sourceDestinationDatumTransforms" title="qgis.core.QgsCoordinateTransformContext.sourceDestinationDatumTransforms"><code class="xref py py-func docutils literal"><span class="pre">sourceDestinationDatumTransforms()</span></code></a></p>
@@ -1869,10 +1869,10 @@ The map keys will be :py:func:<a href="#id1"><span class="problematic" id="id2">
 required for transformations for that source or destination.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">This method should not be used to calculate the corresponding datum transforms</p>
-</div>
-<p>to use for a coordinate transform. Instead, always use calculateDatumTransforms()
+<p class="last">This method should not be used to calculate the corresponding datum transforms
+to use for a coordinate transform. Instead, always use calculateDatumTransforms()
 to determine this.</p>
+</div>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsCoordinateTransformContext.addSourceDestinationDatumTransform" title="qgis.core.QgsCoordinateTransformContext.addSourceDestinationDatumTransform"><code class="xref py py-func docutils literal"><span class="pre">addSourceDestinationDatumTransform()</span></code></a></p>
@@ -1925,7 +1925,7 @@ to determine this.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

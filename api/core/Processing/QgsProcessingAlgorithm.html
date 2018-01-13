@@ -2550,10 +2550,10 @@ allows the algorithm to perform any required cleanup tasks. The returned variant
 includes the results evaluated by the algorithm.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This method modifies the algorithm instance, so it is not safe to call</p>
-</div>
-<p>on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
+<p class="last">This method modifies the algorithm instance, so it is not safe to call
+on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
 of the algorithm should be created with clone() and prepare()/runPrepared() called on the copy.</p>
+</div>
 </dd></dl>
 
 <dl class="method">
@@ -2609,10 +2609,10 @@ calling runPrepared() (which is safe to do in any thread).</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This method modifies the algorithm instance, so it is not safe to call</p>
-</div>
-<p>on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
+<p class="last">This method modifies the algorithm instance, so it is not safe to call
+on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
 of the algorithm should be created with clone() and prepare()/runPrepared() called on the copy.</p>
+</div>
 </dd></dl>
 
 <dl class="method">
@@ -2728,9 +2728,9 @@ on algorithms directly retrieved from QgsProcessingRegistry and <a class="refere
 <p>values such as statistical calculations.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">this method can only be called from the main thread. Use prepare(), runPrepared() and postProcess()</p>
+<p class="last">this method can only be called from the main thread. Use prepare(), runPrepared() and postProcess()
+if you need to run algorithms from a background thread, or use the QgsProcessingAlgRunnerTask class.</p>
 </div>
-<p>if you need to run algorithms from a background thread, or use the QgsProcessingAlgRunnerTask class.</p>
 </dd></dl>
 
 <dl class="method">
@@ -2750,10 +2750,10 @@ to allow the algorithm to perform any required cleanup tasks and return its fina
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This method modifies the algorithm instance, so it is not safe to call</p>
-</div>
-<p>on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
+<p class="last">This method modifies the algorithm instance, so it is not safe to call
+on algorithms directly retrieved from QgsProcessingRegistry and <a class="reference internal" href="QgsProcessingProvider.html#module-QgsProcessingProvider" title="QgsProcessingProvider"><code class="xref py py-class docutils literal"><span class="pre">QgsProcessingProvider</span></code></a>. Instead, a copy
 of the algorithm should be created with clone() and prepare()/runPrepared() called on the copy.</p>
+</div>
 </dd></dl>
 
 <dl class="method">
@@ -2829,7 +2829,7 @@ Returns true if <code class="docutils literal"><span class="pre">parameters</spa
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

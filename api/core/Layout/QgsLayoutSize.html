@@ -1710,14 +1710,13 @@ for use in QGIS layouts. Measurement units are stored alongside the size.</p>
 </div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This class does not inherit from QSizeF since QSizeF includes methods which should not apply to sizes</p>
-</div>
-<p>with units. For instance, the + and - operators would mislead users of this class to believe that
+<blockquote>
+<div>This class does not inherit from QSizeF since QSizeF includes methods which should not apply to sizes
+with units. For instance, the + and - operators would mislead users of this class to believe that
 addition of two QgsLayoutSize with different unit types would automatically convert units. Instead,
 all unit conversion must be handled by a QgsLayoutMeasurementConverter so that conversion between
-paper and screen units can be correctly performed.</p>
-<blockquote>
-<div><p class="rubric">Methods</p>
+paper and screen units can be correctly performed.</div></blockquote>
+<p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="10%" />
@@ -1768,7 +1767,7 @@ paper and screen units can be correctly performed.</p>
 <tbody valign="top">
 </tbody>
 </table>
-</div></blockquote>
+</div>
 <dl class="method">
 <dt id="qgis.core.QgsLayoutSize.decodeSize">
 <code class="descname">decodeSize</code><span class="sig-paren">(</span><em>string: str</em><span class="sig-paren">)</span> &#x2192; QgsLayoutSize<a class="headerlink" href="#qgis.core.QgsLayoutSize.decodeSize" title="Permalink to this definition">¶</a></dt>
@@ -1940,7 +1939,7 @@ during this operation.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

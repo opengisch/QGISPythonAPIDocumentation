@@ -1702,13 +1702,12 @@
 <p>The QgsDateTimeEdit class is a QDateTimeEdit with the capability of setting/reading null date/times.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
-<p class="last">You should use the signal valueChanged of this subclass</p>
-</div>
-<p>rather than QDateTimeEdit.dateTimeChanged. If you consequently connect parent’s
-dateTimeChanged signal and call dateTime() afterwards there is no warranty to
-have a proper NULL value handling.</p>
 <blockquote>
-<div><p class="rubric">Methods</p>
+<div>You should use the signal valueChanged of this subclass
+rather than QDateTimeEdit.dateTimeChanged. If you consequently connect parent’s
+dateTimeChanged signal and call dateTime() afterwards there is no warranty to
+have a proper NULL value handling.</div></blockquote>
+<p class="rubric">Methods</p>
 <table border="1" class="longtable docutils">
 <colgroup>
 <col width="10%" />
@@ -3022,7 +3021,7 @@ have a proper NULL value handling.</p>
 </tr>
 </tbody>
 </table>
-</div></blockquote>
+</div>
 <dl class="method">
 <dt id="qgis.gui.QgsDateTimeEdit.actionEvent">
 <code class="descname">actionEvent</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#qgis.gui.QgsDateTimeEdit.actionEvent" title="Permalink to this definition">¶</a></dt>
@@ -3371,7 +3370,7 @@ have a proper NULL value handling.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 

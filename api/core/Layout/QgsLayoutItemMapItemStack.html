@@ -1771,9 +1771,9 @@ The item will be added to the end of the stack, and rendered
 above any existing map items already present in the stack.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After adding an item to the stack update()</p>
+<p class="last">After adding an item to the stack update()
+should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 </div>
-<p>should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapItemStack.removeItem" title="qgis.core.QgsLayoutItemMapItemStack.removeItem"><code class="xref py py-func docutils literal"><span class="pre">removeItem()</span></code></a></p>
@@ -1821,9 +1821,9 @@ Returns a reference to the item at the specified <code class="docutils literal">
 <dd><p>Moves an item which matching <code class="docutils literal"><span class="pre">itemId</span></code> up the stack, causing it to be rendered above other items.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After moving an item within the stack, update() should be</p>
+<p class="last">After moving an item within the stack, update() should be
+called for the QgsLayoutItemMap to redraw the map with the new item stack order.</p>
 </div>
-<p>called for the QgsLayoutItemMap to redraw the map with the new item stack order.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapItemStack.moveItemUp" title="qgis.core.QgsLayoutItemMapItemStack.moveItemUp"><code class="xref py py-func docutils literal"><span class="pre">moveItemUp()</span></code></a></p>
@@ -1836,9 +1836,9 @@ Returns a reference to the item at the specified <code class="docutils literal">
 <dd><p>Moves an item which matching <code class="docutils literal"><span class="pre">itemId</span></code> up the stack, causing it to be rendered above other items.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After moving an item within the stack, update() should be</p>
+<p class="last">After moving an item within the stack, update() should be
+called for the QgsLayoutItemMap to redraw the map with the new item stack order.</p>
 </div>
-<p>called for the QgsLayoutItemMap to redraw the map with the new item stack order.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapItemStack.moveItemDown" title="qgis.core.QgsLayoutItemMapItemStack.moveItemDown"><code class="xref py py-func docutils literal"><span class="pre">moveItemDown()</span></code></a></p>
@@ -1862,9 +1862,9 @@ Returns true if read was successful.</p>
 <dd><p>Removes an item which matching <code class="docutils literal"><span class="pre">itemId</span></code> from the stack and deletes the corresponding <a class="reference internal" href="QgsLayoutItemMapItem.html#module-QgsLayoutItemMapItem" title="QgsLayoutItemMapItem"><code class="xref py py-class docutils literal"><span class="pre">QgsLayoutItemMapItem</span></code></a></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">After removing an item from the stack, update()</p>
+<p class="last">After removing an item from the stack, update()
+should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 </div>
-<p>should be called for the QgsLayoutItemMap to prevent rendering artifacts.</p>
 <div class="admonition seealso">
 <p class="first admonition-title">See also</p>
 <p class="last"><a class="reference internal" href="#qgis.core.QgsLayoutItemMapItemStack.addItem" title="qgis.core.QgsLayoutItemMapItemStack.addItem"><code class="xref py py-func docutils literal"><span class="pre">addItem()</span></code></a></p>
@@ -1921,7 +1921,7 @@ Returns true if write was successful.</p>
 
   <div role="contentinfo">
     <p>
-      Last updated on 09:53 Jan 11, 2018.
+      Last updated on 21:46 Jan 12, 2018.
 
     </p>
   </div> 
